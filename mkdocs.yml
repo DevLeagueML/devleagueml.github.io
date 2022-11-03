@@ -1,0 +1,56 @@
+site_name: Developers' League Mali 2022
+nav:
+ - "Getting Started": "index.md"
+ - "Setup Environment & Registration": "environment.md"
+ - "Preselection": "preselect.md"
+ #- "Qualification": "qualification.md"
+ #- "Finals": "finals.md"
+ - "Winners": winners.md
+ - "FAQs": faqs.md
+theme:
+  name: material
+  logo: assets/DevL2.png
+  favicon: assets/DevL2.png
+  palette:
+    - scheme: default
+      primary: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  language: fr
+  locale: fr
+  features:
+      - content.code.annotate
+      - content.tabs.link
+extra:
+  version:
+    provider: mike
+    default: stable
+  generator: false
+  social:
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/mlseb7
+    name: DL on Twitter
+  - icon: fontawesome/brands/discord
+    link: https://twitter.com/mlseb7
+    name: Join our Server to chat
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+extra_javascript:
+  - ./javascripts/highlight.js
+extra_css:
+  - css/highlight.css
+
+
+copyright: Copyright &copy; 2022 Developers' League Mali
